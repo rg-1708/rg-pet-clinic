@@ -1,0 +1,5 @@
+rg\springframework\rgpetclinic\model\Pet.class
+rg\springframework\rgpetclinic\model\PetType.class
+rg\springframework\rgpetclinic\model\Person.class
+rg\springframework\rgpetclinic\model\Vet.class
+rg\springframework\rgpetclinic\model\Owner.class
