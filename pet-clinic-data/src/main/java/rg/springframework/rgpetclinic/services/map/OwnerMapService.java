@@ -1,12 +1,14 @@
 package rg.springframework.rgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import rg.springframework.rgpetclinic.model.Owner;
 import rg.springframework.rgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerMapService extends AbstractMapService<Owner,Long> implements OwnerService {
-    
+
     @Override
     public Set<Owner> findAll() {
         return super.findAll();
