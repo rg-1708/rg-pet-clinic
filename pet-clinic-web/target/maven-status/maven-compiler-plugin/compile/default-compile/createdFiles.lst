@@ -1,1 +1,5 @@
 rg\springframework\rgpetclinic\RgPetClinicApplication.class
+rg\springframework\rgpetclinic\controllers\IndexController.class
+rg\springframework\rgpetclinic\bootstrap\DataLoader.class
+rg\springframework\rgpetclinic\controllers\VetController.class
+rg\springframework\rgpetclinic\controllers\OwnerController.class
