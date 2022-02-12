@@ -1,7 +1,7 @@
 package rg.springframework.rgpetclinic.services.map;
 
 import org.springframework.stereotype.Service;
-import rg.springframework.rgpetclinic.model.Speciality;
+import rg.springframework.rgpetclinic.model.Specialty;
 import rg.springframework.rgpetclinic.model.Vet;
 import rg.springframework.rgpetclinic.services.SpecialityService;
 import rg.springframework.rgpetclinic.services.VetService;
@@ -33,7 +33,7 @@ public class VetMapService extends AbstractMapService<Vet,Long> implements VetSe
         if(object.getSpecialties().size() > 0) {
             object.getSpecialties().forEach(speciality -> {
                 if(speciality.getId() == null) {
-                    Speciality savedSpeciality = specialityService.save(speciality);
+                    Specialty savedSpeciality = specialityService.save(speciality);
                     savedSpeciality.setId(savedSpeciality.getId());
 
                 }

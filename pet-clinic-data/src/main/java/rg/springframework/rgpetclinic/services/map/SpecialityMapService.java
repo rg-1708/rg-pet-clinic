@@ -1,31 +1,31 @@
 package rg.springframework.rgpetclinic.services.map;
 
 import org.springframework.stereotype.Service;
-import rg.springframework.rgpetclinic.model.Speciality;
+import rg.springframework.rgpetclinic.model.Specialty;
 import rg.springframework.rgpetclinic.services.SpecialityService;
 
 import java.util.Set;
 
 @Service
-public class SpecialityMapService extends AbstractMapService<Speciality,Long> implements SpecialityService {
+public class SpecialityMapService extends AbstractMapService<Specialty,Long> implements SpecialityService {
 
     @Override
-    public Set<Speciality> findAll() {
+    public Set<Specialty> findAll() {
         return super.findAll();
     }
 
     @Override
-    public Speciality findById(Long id) {
+    public Specialty findById(Long id) {
         return super.findById(id);
     }
 
     @Override
-    public Speciality save(Speciality object) {
+    public Specialty save(Specialty object) {
         return super.save(object);
     }
 
     @Override
-    public void delete(Speciality object) {
+    public void delete(Specialty object) {
         super.delete(object);
     }
 
