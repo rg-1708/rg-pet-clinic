@@ -1,3 +1,3 @@
 # rg-pet-clinic
 
-RG Pet Clinic
+My version of Spring Framework pet-clinc project.
