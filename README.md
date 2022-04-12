@@ -1,3 +1,13 @@
 # rg-pet-clinic
 
-My version of Spring Framework pet-clinc project.
+<img alt="Portfolio" src="https://miro.medium.com/max/788/1*OlgqUIhvl5-9dZISlZ2-yQ.jpeg" align="center"/>
+
+**This was my first project, which is a version of Spring Framework pet-clinc project.**
+
+## The Structure of the Repository : 
+#### As it is a Spring MVC (Monolith) project, all of it is contained within the `master` branch 
+#### Tech Stack : 
+- Spring MVC (multi-moduled project) 
+- Spring Data JPA
+- InMemory H2 database
+
